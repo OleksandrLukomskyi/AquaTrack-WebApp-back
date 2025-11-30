@@ -1,9 +1,9 @@
 import createHttpError from 'http-errors';
-import { getUser, updateUserService } from '../servies/userService.js';
+import { getUser, updateUserService } from '../services/userService.js';
 import {
   refreshSessionService,
   logoutUserService,
-} from '../servies/authServices.js';
+} from '../services/authServices.js';
 import { saveFile } from '../utils/cloudinary/saveFile.js';
 import { REFRESH_TOKEN_LIFE_TIME } from '../constants/constants.js';
 

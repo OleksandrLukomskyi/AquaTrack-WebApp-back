@@ -4,7 +4,7 @@ import {
   resetPassword,
   sendResetPasswordEmail,
   loginOrSignupWithGoogleOAuth,
-} from '../servies/authServices.js';
+} from '../services/authServices.js';
 import { generateOAuthURL } from '../utils/googleOAuth.js';
 import { REFRESH_TOKEN_LIFE_TIME } from '../constants/constants.js';
 import { validateGoogleOAuthSchema } from '../validation/validateGoogleOAuth.js';
@@ -44,8 +44,6 @@ export const getTotalUsers = async (req, res) => {
     res.status(500).json({ message: 'Server Error', error });
   }
 };
-
-
 
 export const registerUserController = async (req, res, next) => {
   try {
