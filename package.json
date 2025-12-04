@@ -38,7 +38,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.0",
     "multer": "^1.4.5-lts.1",
-    "nodemailer": "^6.9.14",
+    "nodemailer": "^7.0.11",
     "pino-http": "^10.2.0",
     "swagger-ui-express": "^5.0.1"
   }
