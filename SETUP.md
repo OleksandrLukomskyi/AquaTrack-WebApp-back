@@ -7,14 +7,14 @@
 #### Backend:
 
 ```bash
-cd AquaTrack-WebApp-backend
+cd AquaTrack-WebApp-back
 npm install
 ```
 
 #### Frontend:
 
 ```bash
-cd AquaTrack-WebApp-frontend
+cd AquaTrack-WebApp-front
 npm install
 ```
 
@@ -22,7 +22,7 @@ npm install
 
 #### Backend (.env файл)
 
-Создайте файл `.env` в папке `AquaTrack-WebApp-backend` со следующим содержимым:
+Создайте файл `.env` в папке `AquaTrack-WebApp-back` со следующим содержимым:
 
 ```env
 # Server Configuration
